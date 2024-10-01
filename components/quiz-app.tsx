@@ -137,7 +137,7 @@ export default function QuizApp() {
         </div>
       ) : (
         // Show current question and answers if the quiz is in progress
-        <div className="bg-card p-8 rounded-lg shadow-md w-full max-w-md">
+        <div className="bg-card p-8 rounded-lg shadow-md w-full max-w-md text-black">
           <h2 className="text-2xl font-bold mb-4">
             Question {state.currentQuestion + 1}/{state.questions.length}
           </h2>
